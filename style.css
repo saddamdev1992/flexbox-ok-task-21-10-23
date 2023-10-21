@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgba(251,234,226,255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    
+    }
+    .image{
+    display: flex;
+    }
+    .card-content{
+    font-size: 10px;
+    }
+.para1{
+padding: 0 20px 20px 0;
+}
+.para2{
+padding: 0 20px 20px 0;
+}
+.span-container{
+    font-style: italic;
+    font-size: 9.5px;
+    padding: 0 0 0 10px ;
+}
